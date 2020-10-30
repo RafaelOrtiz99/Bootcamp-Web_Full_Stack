@@ -1,0 +1,175 @@
+/* Menu */
+
+.main_header {
+    background: #000000;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Courier New';
+}
+
+#boton_menu {
+    display: none;
+}
+
+.icon_menu {
+    padding-top: 30px;
+}
+
+header label {
+    display: none;
+    width: 100px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu li {
+    padding: 20px 25px 25px 25px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu li a:hover {
+    text-decoration: overline;
+    color: salmon;
+}
+
+@media(max-width: 920px) {
+    header label {
+        display: block;
+        height: 75px;
+    }
+    .menu {
+        position: absolute;
+        background-color: salmon;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s;
+        z-index: 100;
+    }
+    #boton_menu:checked~.menu {
+        margin: 0;
+    }
+    .menu ul {
+        display: block;
+    }
+    .menu li:hover {
+        background: #000000;
+    }
+}
+
+
+/* Contenido */
+
+body {
+    margin: 0;
+    background-image: url('../img/imagen2.webp');
+}
+
+.bloque {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+
+.bloque img {
+    width: 600px;
+    height: 450px;
+}
+
+
+/* Formulario */
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+}
+
+form label {
+    width: 100%;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    background-color: #000;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize: none;
+    display: block;
+}
+
+
+/* Footer */
+
+footer {
+    background-image: url('../img/imagen3.jpg');
+}
+
+.texto-footer {
+    background-color: black;
+    padding-top: 8px;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    height: 80px;
+}
+
+hr {
+    border-top: 4px dashed black;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+}

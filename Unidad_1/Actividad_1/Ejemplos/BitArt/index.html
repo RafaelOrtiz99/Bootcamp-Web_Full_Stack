@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART</title>
+    <link rel="icon" href="icons/favicon1.png">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/contenido.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+    <header class="iconoArt">
+        <img class="img_logo" src="icons/favicon1.png" alt="Arte">
+    </header>
+
+    <header class="main_header">
+
+        <input type="checkbox" id="boton_menu">
+        <label for="boton_menu" class="icon_menu">
+            <img src="icons/menu.png" alt="IconoMenu" width="100px" height="100px">
+        </label>
+
+        <nav class="menu">
+            <ul>
+                <li> <a href=""> Inicio   </a> </li>
+                <li> <a href=""> Nosotros </a> </li>
+                <li> <a href=""> Pintores </a> </li>
+                <li> <a href=""> Artista  </a> </li>
+                <li> <a href=""> Redes    </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <ul class="slider_portada">
+
+                <!--Slider imagen1-->
+                <li>
+                    <input type="radio" id="sbutton1" name="sradio" checked>
+                    <label for="sbutton1"></label>
+                    <img src="images/noche_estrellada.webp" alt="noche_estrellada">
+                </li>
+
+                <!--Slider imagen2-->
+                <li>
+                    <input type="radio" id="sbutton2" name="sradio" checked>
+                    <label for="sbutton2"></label>
+                    <img src="images/guernica.webp" alt="guernica">
+                </li>
+
+                <!--Slider imagen3-->
+                <li>
+                    <input type="radio" id="sbutton3" name="sradio" checked>
+                    <label for="sbutton3"></label>
+                    <img src="images/mona_lisa.webp" alt="mona_lisa">
+                </li>
+
+                <!--Slider imagen4-->
+                <li>
+                    <input type="radio" id="sbutton4" name="sradio" checked>
+                    <label for="sbutton4"></label>
+                    <img src="images/grito.webp" alt="grito">
+                </li>
+
+            </ul>
+        </article>
+    </section>
+
+    <article class="bloqueTitulo">
+        <h1>Bienvenidos</h1>
+
+        <section class="parrafoTitulo">
+            <p>
+                Estamos convencidos que el arte debe formar parte de la vida de todos,<br> por eso es una plataforma para aficionados del arte y para ti.
+            </p>
+
+            <div class="iconoArt">
+                <img src="icons/favicon.png" alt="iconoBloque">
+            </div>
+
+        </section>
+    </article>
+
+    <footer>
+        <section class="partefooter">
+            <h3 class="titulomapa">Ubicanos y contactanos</h3>
+        </section>
+
+        <div class="contenidoFooter">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6852416791075!2d-74.05922118516614!3d4.65011339662212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a4172da2c39%3A0xf046703135402277!2sCorporaci%C3%B3n%20Universitaria%20Iberoamericana!5e0!3m2!1ses!2sco!4v1603650126918!5m2!1ses!2sco"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <form action="">
+            <h3>Datos</h3>
+
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="35">
+            <input type="text" name="correo" id="correo" placeholder="email">
+            <input type="text" name="tel" id="tel" placeholder="telefono">
+            <textarea name="mensaje" id="mensaje" placeholder="Escriba el mensaje"></textarea>
+
+            <label for="mensaje"></label>
+            <input type="submit" id="boton" value="Enviar">
+
+        </form>
+
+        <div class="texto-footer">
+            <p>
+                RAFAEL ORTIZ
+            </p>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>

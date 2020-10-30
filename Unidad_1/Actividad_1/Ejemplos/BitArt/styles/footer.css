@@ -1,0 +1,52 @@
+footer {
+    width: 100%;
+    background-image: url('../images/marmol.webp');
+}
+
+.partefooter {
+    background-image: url('../images/marmol.webp');
+    background-attachment: fixed;
+    padding: 30px;
+    width: 100%;
+}
+
+.contenidoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulomapa {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    padding: 35px 0 15 0;
+    font-size: 30px;
+}
+
+iframe {
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+form {
+    margin-left: 120px;
+    width: 450px;
+    background-color: rgb(0, 0, 0, 4);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    margin-top: 40px;
+    border-radius: 7px;
+    font-family: cursive;
+}
+
+.texto-footer {
+    background-color: black;
+    padding-top: 8px;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    height: 80px;
+}

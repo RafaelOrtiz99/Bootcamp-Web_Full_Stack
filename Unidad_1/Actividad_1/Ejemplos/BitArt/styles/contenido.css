@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+.bloqueTitulo {
+    font-size: 45px;
+    letter-spacing: 1px;
+    padding: 45px 0;
+    color: salmon;
+    text-align: center;
+    font-family: cursive;
+}
+
+.parrafoTitulo {
+    letter-spacing: 1px;
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 26px;
+    margin-top: -30px;
+}
+
+.iconoArt {
+    padding-top: 55px;
+}

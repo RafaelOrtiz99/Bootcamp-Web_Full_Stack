@@ -1,0 +1,81 @@
+.iconoArt {
+    background: #000000;
+    padding-top: 15px;
+}
+
+.img_logo {
+    width: 150px;
+    height: 210px;
+    /*Reemplazado por algún valor apropiado*/
+    margin: 0 auto;
+    display: block;
+}
+
+.main_header {
+    background: #000000;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Courier New';
+}
+
+#boton_menu {
+    display: none;
+}
+
+.icon_menu {
+    padding-top: 30px;
+}
+
+header label {
+    display: none;
+    width: 100px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu li {
+    /*Mancecillas del reloj, arriba, derecha, abajo, izquierda*/
+    padding: 20px 25px 25px 25px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu li a:hover {
+    text-decoration: overline;
+    color: salmon;
+}
+
+@media(max-width: 920px) {
+    header label {
+        display: block;
+        height: 75px;
+    }
+    .menu {
+        position: absolute;
+        background-color: salmon;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s;
+        z-index: 100;
+    }
+    #boton_menu:checked~.menu {
+        margin: 0;
+    }
+    .menu ul {
+        display: block;
+    }
+    .menu li:hover {
+        background: #000000;
+    }
+}
