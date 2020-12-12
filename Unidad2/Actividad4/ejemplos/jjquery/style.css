@@ -1,0 +1,14 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+}
+
+.caja {
+    border-radius: 50px;
+    background: salmon;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: block;
+}
