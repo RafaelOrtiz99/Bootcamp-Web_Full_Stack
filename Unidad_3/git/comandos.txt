@@ -1,0 +1,11 @@
+git checkout -b nuevarama = crea la rama nuevarama y nos cambia a esta
+git branch nuevarama = lo mismo que la anterior, pero mas claro
+
+git bracnh = ver las ramas del repositorio y en la cual nos encontramos
+git show-branch
+
+git push origin nuevarama = sube los cambios a la rama especificada
+git checkout nuevarama = pasar a la rama nuevarama
+
+git merge = ver los cambios
+git pull remote origin master = bajar los cambios
